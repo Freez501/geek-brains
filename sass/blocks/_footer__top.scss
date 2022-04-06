@@ -1,0 +1,91 @@
+.footer__top{
+    background-image: url(../img/bcg-footer.jpeg); 
+    min-height: 448px;
+    display: flex;
+
+    .footer__top-wrp{
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer__top-comment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+    }
+
+    .footer__top-img{
+        width: 96px;
+        margin-bottom: 30px;
+    }
+
+    .footer__top-text{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #222224;
+    }
+
+    .footer__form-wrp{
+        display: flex;
+        flex-direction: column;
+    
+    .footer__form-title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        color: #222224;
+        text-transform: uppercase;
+        }
+    
+    .footer__form-text{
+        font-size: 18px;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 32px;
+        }
+    }
+
+    .footer__form{
+        position: relative;
+    }
+    .footer__form-email{
+        padding: 17px 22px;
+        border-radius: 25px 0 0 25px;
+        background-color: #E1E1E1;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F16D7F;
+        width: 256px;
+        box-sizing: border-box;
+    }
+
+    .footer__form-email:hover,
+    .footer__form-email:focus {
+        border: 1px solid #F16D7F;
+        cursor: pointer;
+        padding: 16px 22px;
+    }
+
+    .footer__form-email::placeholder{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer__form-button{
+        border-radius: 0px 25px 25px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 16px 19px;
+        position: absolute;
+    }
+}

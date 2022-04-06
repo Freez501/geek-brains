@@ -1,0 +1,33 @@
+.reg__adv{
+    width: 652px;
+
+    .adv__title{
+        margin-bottom: 21px;
+    }
+
+    .adv__title--up{
+        text-transform: uppercase;
+    }
+
+    .adv__text{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .adv__item{
+        position: relative;
+        margin-left: 43px;
+        margin-bottom: 16px;
+    }
+
+    .adv__item::before{
+        content: "";
+        background-image: url(../img/vector.svg);
+        width: 20px;
+        height: 16px;
+        position: absolute;
+        top: 9px;
+        left: -43px;
+    }
+}

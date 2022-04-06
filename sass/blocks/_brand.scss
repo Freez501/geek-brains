@@ -1,0 +1,44 @@
+.brand{
+    display: flex;
+    margin-bottom: 20px;
+
+    &__img{
+        width: 800px;
+        height: 765px;
+    }
+
+    &__title-wrp{
+        flex-grow: 1;
+        background-color: #F1E4E6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 91px;
+        box-sizing: border-box;
+    }
+
+
+    &__title{
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #222222;
+        text-transform: uppercase;
+    }
+
+    &__title-text{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    &__title-text-color{
+        color: #F16D7F;
+    }
+
+    &__title-border{
+        border-left: 12px solid #F16D7F;
+        padding-left: 16px;
+    }
+}

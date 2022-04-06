@@ -1,0 +1,19 @@
+.reg{
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+
+    &__wrp{
+        background: #F8F3F4;
+        padding: 60px 0;
+        margin-bottom: 64px;
+    }
+
+    &__title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F16D7F;
+    }
+
+}

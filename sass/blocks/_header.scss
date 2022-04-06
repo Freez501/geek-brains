@@ -1,0 +1,84 @@
+.header{
+    background-color: #222222;
+    position: relative;
+    
+    &__wrp{
+        display: flex;
+        min-height: 75px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__container{
+        position: relative; 
+    }
+
+    &__burger:hover + .header__nav,
+    &__burger:focus + .header__nav{
+        display: block; 
+    }
+    
+    &__nav{
+        display: none;
+        position: absolute;
+        width: 232px;
+        min-height: 765px;
+        background-color: #fff;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.5);
+        top: 75px;
+        right: 0px;
+        padding: 37px 34px;
+        box-sizing: border-box;
+    }
+
+    &__nav-title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+
+    &__logo{
+        margin-right: 41px;
+    }
+
+    &__search{
+        background-color: transparent;
+        border: none;
+    }
+
+    &__icon{
+        fill: #E8E8E8;
+    }
+
+    &__menu-list{
+        display: flex;
+        align-items: center;
+    }
+
+    &__link{
+        margin-left: 34px;
+    }
+
+    &__link--basket{
+        position: relative;
+    }
+
+    &__bassket-amount{
+        position: absolute;
+        border: 1px solid #F16D7F;
+        border-radius: 50%;
+        width: 19px;
+        height: 19px;
+        background-color: #F16D7F;
+        text-align: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        top: -22px;
+        left: 25px;
+    }
+
+}

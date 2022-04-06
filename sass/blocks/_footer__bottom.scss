@@ -1,0 +1,41 @@
+.footer__bottom{
+    background-color: #222224;
+
+    .footer__bottom-wrp{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 71px;
+        }
+
+    .footer__bottom-text{
+        font-size: 16px;
+        line-height: 19px;
+        color: #FBFBFB;
+    }
+    
+        .footer__bottom-social{
+            display: flex;
+        }
+
+        .footer__bottom-icon{
+            margin-right: 7px;
+        }
+
+        .footer__bottom-icon{
+            background-color: white;
+            width: 32px;
+            height: 32px;
+        }
+        .footer__bottom-icon:hover{
+            background-color: #F16D7F;
+        }
+
+        .social-icon{
+            fill: black; 
+        }
+
+        .social-icon:hover{
+            fill: white; 
+        }
+}

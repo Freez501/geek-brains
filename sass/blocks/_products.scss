@@ -1,0 +1,130 @@
+.products{
+    margin-bottom: 95px;
+
+    &__wrp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 400;
+    }
+
+    &__sub-title{
+        color: #9F9F9F;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    &__cardbox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        background: #F8F8F8;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    &__card::before{
+        content: '';
+        width: 100%;
+        min-height: 420px;
+        background-color: rgba(58, 56, 56, 0.86);
+        position: absolute;
+        display: none;
+    }
+
+    &__card:hover::before{
+        display: block;
+    }
+
+    &__card-img{
+        margin-bottom: 25px;
+    }
+
+    &__card-title{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+        margin-left: 18px;
+    }
+
+    &__card-text{
+        color: #5D5D5D;
+        font-weight: 300;
+        margin-bottom: 18px;
+        margin-left: 18px;
+    }
+
+    &__card-price{
+        color: #F16D7F;
+        margin-left: 18px;
+        margin-bottom: 20px;
+    }
+
+    &__button{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        border: 1px solid #F26376;
+        padding: 14px 39px;
+    }
+
+    &__button:hover{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: #F26376;
+        color: #FFFFFF;
+        border: 1px solid #F26376;
+        padding: 14px 39px;
+    }
+
+    &__button:focus{
+        border: 1px solid #F26376; 
+    }
+
+    &__card-button{
+        padding: 9px 13px;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        position: absolute;
+        top: 33%;  
+        left: 30%;
+        display: none;
+    }
+
+    &__card-button:hover,
+    &__card-button:focus,
+    &__card-button:active {
+        background-color:rgba(58, 56, 56, 0.86);
+        padding: 10px 14px;
+        color: #f26376;
+        transition-duration: 0.3s;
+    }
+
+    &__card:hover .products__card-button{
+        display: flex;
+        align-items: center;
+    }
+
+    &__card-basket{
+        width: 25px;
+        margin-right: 11px;
+    }
+}
