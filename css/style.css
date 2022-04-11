@@ -4,7 +4,6 @@ body {
   line-height: 17px;
   font-style: normal;
   font-weight: 400;
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -25,6 +24,12 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+@media (max-width: 1599px) {
+  .container {
+    width: 92%;
+  }
 }
 
 .header {
@@ -123,6 +128,12 @@ body {
   left: 25px;
 }
 
+@media (max-width: 766px) {
+  .header__link {
+    display: none;
+  }
+}
+
 .nav-item__list {
   padding-left: 20px;
   margin-bottom: 20px;
@@ -158,8 +169,8 @@ body {
 }
 
 .brand__img {
-  width: 800px;
-  height: 765px;
+  width: 50%;
+  height: 100%;
 }
 
 .brand__title-wrp {
@@ -206,6 +217,34 @@ body {
   padding-left: 16px;
 }
 
+@media (max-width: 1599px) {
+  .brand__title {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .brand__title-text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 766px) {
+  .brand__img {
+    display: none;
+  }
+  .brand__title-wrp {
+    min-height: 363px;
+  }
+  .brand__title {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .brand__title-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
 .sales {
   margin-bottom: 91px;
 }
@@ -238,6 +277,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .sales .sales__card--woman {
@@ -274,6 +316,28 @@ body {
   text-align: center;
   color: #F16D7F;
   text-transform: uppercase;
+}
+
+@media (max-width: 1599px) {
+  .sales .sales__card {
+    width: 32.5%;
+    height: 167px;
+  }
+  .sales .sales__card--acces {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .sales .sales__card {
+    width: 100%;
+    height: 247px;
+    margin-bottom: 32px;
+  }
+  .sales .sales__card--acces {
+    height: 111px;
+    margin-top: 0;
+  }
 }
 
 .advantage {
