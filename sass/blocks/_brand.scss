@@ -3,8 +3,8 @@
     margin-bottom: 20px;
 
     &__img{
-        width: 800px;
-        height: 765px;
+        width: 50%;
+        height: 100%;
     }
 
     &__title-wrp{
@@ -40,5 +40,45 @@
     &__title-border{
         border-left: 12px solid #F16D7F;
         padding-left: 16px;
+    }
+}
+
+@media (max-width: 1599px){
+    
+    .brand{
+        &__title{
+            font-size: 44px;
+            line-height: 53px;
+        }
+
+        &__title-text{
+            font-size: 24px;
+            line-height: 29px;
+        }
+
+    }
+}
+
+@media (max-width: 766px){
+    
+    .brand{
+
+        &__img{
+            display: none;
+        }
+        
+        &__title-wrp{
+            min-height: 363px;
+        }
+        &__title{
+            font-size: 38px;
+            line-height: 45px;
+        }
+
+        &__title-text{
+            font-size: 20px;
+            line-height: 24px;
+        }
+
     }
 }
