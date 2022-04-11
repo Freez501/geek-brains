@@ -3,9 +3,6 @@
     display: flex;
     justify-content: space-between;
 
-    &__list{
-        margin-bottom: 72px;
-    }
     &__cardbox{
         margin-bottom: 128px;
     }
@@ -40,11 +37,6 @@
         line-height: 26px;
         color: #575757;
         margin-bottom: 6px;
-    }
-
-    &__card-price--color{
-        color: #F16D7F;
-        margin-left: 3px;
     }
 
     &__form{
@@ -146,17 +138,5 @@
         font-size: 14px;
         line-height: 17px;
         color: #000000;
-    }
-
-    &__card-number{
-        display: inline-block;
-        width: 40px;
-        height: 22px;
-        margin-left: 24px;
-        text-align: center;
-    }
-
-    &__card-quantity{
-        display: flex;
     }
 }
