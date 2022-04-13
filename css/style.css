@@ -1011,16 +1011,16 @@ body {
   fill: #FFFFFF;
 }
 
-.reg__adv {
-  width: 652px;
-}
-
 .reg__adv .adv__title {
   margin-bottom: 21px;
 }
 
 .reg__adv .adv__title--up {
   text-transform: uppercase;
+}
+
+.reg__adv .adv__title--sub {
+  width: 652px;
 }
 
 .reg__adv .adv__text {
@@ -1043,6 +1043,48 @@ body {
   position: absolute;
   top: 9px;
   left: -43px;
+}
+
+@media (max-width: 1599px) {
+  .reg {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .reg__adv {
+    margin-left: 22px;
+  }
+  .reg__adv .adv__title--up {
+    margin-bottom: 32px;
+  }
+  .reg__adv .adv__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .reg__adv .adv__title--sub {
+    width: 354px;
+  }
+  .reg__adv .adv__list {
+    width: 337px;
+  }
+  .reg__adv .adv__item::before {
+    top: 5px;
+  }
+}
+
+@media (max-width: 766px) {
+  .reg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reg__adv {
+    margin-top: 40px;
+  }
 }
 
 .shop {
