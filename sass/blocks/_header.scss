@@ -22,7 +22,7 @@
         display: none;
         position: absolute;
         width: 232px;
-        min-height: 765px;
+        min-height: 100%;
         background-color: #fff;
         box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.5);
         top: 75px;
@@ -79,6 +79,13 @@
         color: #FFFFFF;
         top: -22px;
         left: 25px;
+    }
+}
+
+@media (max-width: 1599px){
+    .header{
+        padding: 0 16px;
+    
     }
 }
 
