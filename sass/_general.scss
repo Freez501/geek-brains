@@ -4,7 +4,6 @@ body{
     line-height: 17px;
     font-style: normal;
     font-weight: 400;
-    width: 1600px;
     margin: 0 auto;
 }
 
@@ -24,4 +23,10 @@ body{
 .container{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+@media (max-width: 1599px) {
+    .container{
+        width: 95%;
+    }
 }

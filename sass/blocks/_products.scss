@@ -22,7 +22,7 @@
 
     &__cardbox{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
 
@@ -63,8 +63,8 @@
     &__card-text{
         color: #5D5D5D;
         font-weight: 300;
-        margin-bottom: 18px;
-        margin-left: 18px;
+        padding: 0px 18px 18px;
+        box-sizing: border-box;
     }
 
     &__card-price{
@@ -80,6 +80,7 @@
         color: #F26376;
         border: 1px solid #F26376;
         padding: 14px 39px;
+        margin-top: 18px;
     }
 
     &__button:hover{
@@ -126,5 +127,16 @@
     &__card-basket{
         width: 25px;
         margin-right: 11px;
+    }
+}
+
+@media (max-width: 1599px){
+    
+    .products{
+        margin-bottom: 65px;
+    }
+    
+    .products__card{
+        margin-bottom: 15px;
     }
 }

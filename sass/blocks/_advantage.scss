@@ -41,3 +41,18 @@
         font-weight: 300;
     }
 }
+
+@media (max-width: 1599px){
+    .advantage{
+        padding: 48px 0 0 0;
+    }
+    
+    .advantage__list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantage__item{
+        margin-bottom: 58px;
+    }
+}

@@ -39,3 +39,11 @@
             fill: white; 
         }
 }
+
+@media (max-width: 766px){
+    .footer__bottom-wrp{
+        flex-direction: column-reverse;
+        padding-top: 43px;
+        padding-bottom: 9px;
+    }
+}
