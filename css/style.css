@@ -1144,9 +1144,6 @@ body {
 
 .shop__form {
   margin-bottom: 57px;
-}
-
-.shop__info {
   width: 360px;
 }
 
@@ -1185,6 +1182,9 @@ body {
           flex-direction: column;
   padding: 39px 34px 42px 34px;
   background-color: #F5F3F3;
+  height: 214px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .shop__total-text {
@@ -1240,6 +1240,7 @@ body {
   width: 100%;
   text-transform: uppercase;
   font-weight: 300;
+  margin-top: 0;
 }
 
 .shop__card-buttons {
@@ -1257,5 +1258,81 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+}
+
+@media (max-width: 1199px) {
+  .shop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .shop__cardbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shop__form {
+    margin-right: 15px;
+  }
+  .shop__form-button {
+    margin-right: 48px;
+  }
+  .shop__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .shop__total {
+    margin-top: 38px;
+  }
+}
+
+@media (max-width: 766px) {
+  .shop__card {
+    height: 188px;
+  }
+  .shop__form {
+    margin-right: 0;
+  }
+  .shop__card-info {
+    width: 215px;
+  }
+  .shop__card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 25px;
+  }
+  .shop__card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 4px;
+  }
+  .shop__info {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 96px;
+  }
+  .shop__card-button {
+    margin-right: 6px;
+    font-size: 12px;
+    padding: 8px 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
